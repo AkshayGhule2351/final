@@ -1,22 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Footer from './components/Footer';
+import Navbar from './Navbar';
+import Home from './Home';
+import Footer from './Footer';
 import { Routes, Route } from 'react-router-dom';
-import Products from './components/Products';
-import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
-import Login from './components/Login';
-import Register from './components/Register';
-import Product from './components/Product';
-import Cart from './components/Cart';
-import Additional from './components/Additional';
-import MultipleProducts from './components/MultipleProducts';
-import Mobiles from './components/Mobiles';
-import Laptops from './components/Laptops';
-import Fashion from './components/Fashion';
-import ScrollImage from './components/ScrollImage';
+import Products from './Products';
+import AboutUs from './AboutUs';
+import ContactUs from './ContactUs';
+import Login from './Login';
+import Register from './Register';
+import Product from './Product';
+import Cart from './Cart';
+import Additional from './Additional';
+import MultipleProducts from './MultipleProducts';
+import Mobiles from './Mobiles';
+import Laptops from './Laptops';
+import Fashion from './Fashion';
+import ScrollImage from './ScrollImage';
 
 function App() {
   return (

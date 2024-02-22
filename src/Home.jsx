@@ -7,6 +7,7 @@ import Laptops from './Laptops';
 import { Carousel } from 'react-bootstrap';
 import Fashion from './Fashion';
 import ScrollImage from './ScrollImage';
+import './Home.css';
 
 const Home = () => {
     return (
@@ -70,30 +71,28 @@ const Home = () => {
 
             </Carousel>
             <br />
-            <div className="card text-black bg-dark border-0 ">
-                <img src="/assets/mybackground.jpg" className="card-img" height="500px" alt="..." style={{marginTop:"-25px"}}/>
+            <div className="card text-black bg-dark border-0">
+                <img src="/assets/mybackground.jpg" className="card-img" height="650px" alt="..." style={{ marginTop: "-25px" }} />
                 <div className="card-img-overlay d-flex flex-column justify-content-center ">
-                    <div className="container">
-                        <h5 className="card-title display-4 fw-bolder mb-0 a" >NEW SEASON ARRIVALS</h5>
-                        <p className="card-text lead fs-2">
+                    <div className="container ">
+                        <h5 className="card-title display-4 fw-bolder mb-0 a">NEW SEASON ARRIVALS</h5>
+                        <p className="card-text lead fs-2 animated-title" style={{color:"red"}}>
                             CHECKOUT THE ALL NEW PRODUCTS
                         </p>
-
                     </div>
                 </div>
-                <div>
-                </div>
-
             </div>
-            
+
+
+
             <Products />
-            <Fashion/>
-            <Mobiles/>
-            <Laptops/>
-            <MultipleProducts/>
-            <ScrollImage/>
+            <Fashion />
+            <Mobiles />
+            <Laptops />
+            <MultipleProducts />
+            <ScrollImage />
             <AboutUs />
-            
+
         </div>
     )
 }

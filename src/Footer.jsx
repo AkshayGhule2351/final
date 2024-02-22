@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer className="mt-2 py-3 bg-dark text-light">
             <Container>
-                <Row>
+                 <Row>
                     <Col md={4} style={{ borderRight: "1px solid white" }} className="about-us-column">
                         <h5>About Us</h5>
                         <ul>
