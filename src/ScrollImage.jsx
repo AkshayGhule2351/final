@@ -6,6 +6,14 @@ import { Carousel } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { CardHeader } from 'react-bootstrap';
+import dress1 from './dress1.jpg';
+import dress2 from './dress2.jpg';
+import dress3 from './dress3.jpg';
+import dress4 from './dress4.jpg';
+import dress5 from './dress5.jpg';
+import dress6 from './dress6.jpg';
+import dress7 from './dress7.jpg';
+import fashion2 from './fashion2.jpg';
 
 
 const ScrollImage = () => {
@@ -29,7 +37,7 @@ const ScrollImage = () => {
                                         <Col md={3} >
                                             <Card className="text-center" style={cardStyle1}>
                                                 <CardHeader>Dress</CardHeader>
-                                                <Card.Img variant="top" src="./img/dress1.jpg" />
+                                                <Card.Img variant="top" src={dress1} />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}>Upto 65% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹1,130</Card.Subtitle>
@@ -43,7 +51,7 @@ const ScrollImage = () => {
                                         <Col md={3}>
                                             <Card className="text-center" style={cardStyle1}>
                                                 <CardHeader>Pocket's</CardHeader>
-                                                <Card.Img variant="top" src="./img/dress2.jpg" />
+                                                <Card.Img variant="top" src={dress2} />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}>Upto 35% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹1,299</Card.Subtitle>
@@ -57,7 +65,7 @@ const ScrollImage = () => {
                                         <Col md={3}>
                                             <Card className="text-center" style={cardStyle1}>
                                                 <CardHeader>Glasses</CardHeader>
-                                                <Card.Img variant="top" src="./img/dress3.jpg" />
+                                                <Card.Img variant="top" src={dress3} />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}>Upto 55% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹890</Card.Subtitle>
@@ -71,7 +79,7 @@ const ScrollImage = () => {
                                         <Col md={3}>
                                             <Card className="text-center" style={cardStyle1}>
                                                 <CardHeader>Watche's</CardHeader>
-                                                <Card.Img variant="top" src="./img/dress4.jpg" />
+                                                <Card.Img variant="top" src={dress4} />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}>Upto 47% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹980</Card.Subtitle>
@@ -93,7 +101,7 @@ const ScrollImage = () => {
                                         <Col md={3}>
                                             <Card className="text-center" style={cardStyle1}>
                                                 <CardHeader>Shoe's</CardHeader>
-                                                <Card.Img variant="top" src="./img/dress5.jpg" />
+                                                <Card.Img variant="top" src={dress5} />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}> Upto 73% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹780</Card.Subtitle>
@@ -107,7 +115,7 @@ const ScrollImage = () => {
                                         <Col md={3}>
                                             <Card className="text-center" style={cardStyle1}>
                                                 <CardHeader>Tshirt's</CardHeader>
-                                                <Card.Img variant="top" src="./img/dress6.jpg" />
+                                                <Card.Img variant="top" src={dress6} />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}>Upto 63% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹800</Card.Subtitle>
@@ -119,8 +127,10 @@ const ScrollImage = () => {
                                         </Col>
                                         <Col md={3}>
                                             <Card className="text-center" style={cardStyle1}>
-                                                <CardHeader>Women Dress's</CardHeader>
-                                                <Card.Img variant="top" src="./img/dress7.jpg" />
+                                            <CardHeader>Women Dress's</CardHeader>
+                                            <Card.Img variant="top" src={dress7} />
+                                                
+                                                <Card.Img variant="top"  />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}>Upto 79% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹450</Card.Subtitle>
@@ -134,7 +144,7 @@ const ScrollImage = () => {
                                         <Col md={3}>
                                             <Card className="text-center" style={cardStyle1}>
                                                 <CardHeader>Sando</CardHeader>
-                                                <Card.Img variant="top" src="./img/fashion2.jpg" />
+                                                <Card.Img variant="top" src={fashion2} />
                                                 <Card.Body>
                                                     <Card.Title style={myh1}>Upto 69% off</Card.Title>
                                                     <Card.Subtitle className="mb-2 text-muted">₹999</Card.Subtitle>

@@ -3,6 +3,15 @@ import { CardBody, CardGroup, CardText } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import { Button } from "react-bootstrap";
+import heaphones1 from './heaphones1.jpg';
+import heaphones2 from './heaphones2.jpg';
+import heaphones3 from './heaphones3.jpg';
+import heaphones4 from './heaphones4.jpg';
+import heaphones5 from './heaphones5.jpg';
+import heaphones6 from './heaphones6.jpg';
+import heaphones7 from './heaphones7.jpg';
+import heaphones8 from './heaphones8.jpg';
+import heaphones9 from './heaphones9.jpg';
 
 export class Additional extends PureComponent {
   render() {
@@ -22,7 +31,7 @@ export class Additional extends PureComponent {
 
                         <div className="row" style={{boxShadow: "4px 4px 8px rgba(0, 0, 0, 0.3)", backgroundColor:"light"}}>
                             <div className="col-md-5">
-                                <img style={{ marginTop: "20px" }} src="./Pics/heaphones9.jpg" alt="Description of the image" className="img-fluid" />
+                                <img style={{ marginTop: "20px" }} src={heaphones9} alt="Description of the image" className="img-fluid" />
                             </div>
 
                             <div className="col-md-7">
@@ -62,7 +71,7 @@ export class Additional extends PureComponent {
 
                         <div className="row" style={{boxShadow: "4px 4px 8px rgba(0, 0, 0, 0.3)", backgroundColor:"light"}}>
                             <div className="col-md-5">
-                                <img style={{ marginTop: "20px" }} src="./Pics/heaphones8.jpg" alt="Description of the image" className="img-fluid" />
+                                <img style={{ marginTop: "20px" }} src={heaphones8} alt="Description of the image" className="img-fluid" />
                             </div>
 
                             <div className="col-md-7">
@@ -107,7 +116,7 @@ export class Additional extends PureComponent {
 
                         <div className="row" style={{boxShadow: "4px 4px 8px rgba(0, 0, 0, 0.3)", backgroundColor:"light"}}>
                             <div className="col-md-5">
-                                <img style={{ marginTop: "20px" }} src="./Pics/heaphones7.jpg" alt="Description of the image" className="img-fluid" />
+                                <img style={{ marginTop: "20px" }} src={heaphones7} alt="Description of the image" className="img-fluid" />
                             </div>
 
                             <div className="col-md-7">
@@ -153,7 +162,7 @@ export class Additional extends PureComponent {
 
                         <div className="row" style={{boxShadow: "4px 4px 8px rgba(0, 0, 0, 0.3)", backgroundColor:"light"}}>
                             <div className="col-md-5">
-                                <img style={{ marginTop: "20px" }} src="./Pics/heaphones6.jpg" alt="Description of the image" className="img-fluid" />
+                                <img style={{ marginTop: "20px" }} src={heaphones6} alt="Description of the image" className="img-fluid" />
                             </div>
 
                             <div className="col-md-7">

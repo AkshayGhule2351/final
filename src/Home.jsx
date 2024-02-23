@@ -8,6 +8,14 @@ import { Carousel } from 'react-bootstrap';
 import Fashion from './Fashion';
 import ScrollImage from './ScrollImage';
 import './Home.css';
+import hero11 from "./hero11.webp";
+import hero22 from "./hero22.webp";
+import hero33 from "./hero33.webp";
+import hero44 from "./hero44.webp";
+import hero55 from "./hero55.webp";
+import hero66 from "./hero66.webp";
+import hero77 from "./hero77.webp";
+import mybackground from "./mybackground.jpg"
 
 const Home = () => {
     return (
@@ -16,7 +24,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./image/hero11.webp"
+                        src={hero11}
                         alt="First slide"
                     />
                 </Carousel.Item>
@@ -24,7 +32,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./image/hero22.webp"
+                        src={hero22}
                         alt="Second slide"
                     />
                 </Carousel.Item>
@@ -32,7 +40,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./image/hero33.webp"
+                        src={hero33}
                         alt="Second slide"
                     />
                 </Carousel.Item>
@@ -40,7 +48,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./image/hero44.webp"
+                        src={hero44}
                         alt="Second slide"
                     />
                 </Carousel.Item>
@@ -48,14 +56,14 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="./image/hero55.webp"
+                        src={hero55}
                         alt="Second slide"
                     />
 
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="./image/hero66.webp"
+                            src={hero66}
                             alt="Second slide"
                         />
                     </Carousel.Item>
@@ -63,7 +71,7 @@ const Home = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="./image/hero77.webp"
+                            src={hero77}
                             alt="Second slide"
                         />
                     </Carousel.Item>
@@ -72,7 +80,7 @@ const Home = () => {
             </Carousel>
             <br />
             <div className="card text-black bg-dark border-0">
-                <img src="/assets/mybackground.jpg" className="card-img" height="650px" alt="..." style={{ marginTop: "-25px" }} />
+                <img src={mybackground} className="card-img" height="650px" alt="..." style={{ marginTop: "-25px" }} />
                 <div className="card-img-overlay d-flex flex-column justify-content-center ">
                     <div className="container ">
                         <h5 className="card-title display-4 fw-bolder mb-0 a">NEW SEASON ARRIVALS</h5>

@@ -3,6 +3,11 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import {  CardGroup } from "react-bootstrap";
 import { Link } from 'react-router-dom';
+import poco from './poco.jpg';
+import iphone from './iphone.jpg';
+import realme from './realme.jpg';
+import vivo from './vivo.jpg';
+import samsung from './samsung.jpg';
 
 const Mobiles = () => {
 
@@ -24,7 +29,7 @@ const Mobiles = () => {
                             <CardGroup style={cardStyle} >
                                 <Card className="text-center" style={cardStylecard}>
                                     <Card.Header>Poco Phone's</Card.Header>
-                                    <Card.Img variant="top" src="./img/poco.jpg"></Card.Img>
+                                    <Card.Img variant="top" src={poco}></Card.Img>
                                     <Card.Body>
                                         <Card.Title>POCO F5 5G (Electric Orange, 256 GB)</Card.Title>
                                         <Card.Subtitle className="mb-2 text-muted">₹26,999</Card.Subtitle>
@@ -46,7 +51,7 @@ const Mobiles = () => {
                                 </Card>
                                 <Card className="text-center" style={cardStylecard} >
                                     <Card.Header>iPhone Phone's</Card.Header>
-                                    <Card.Img variant="top" src="./img/iphone.jpg"></Card.Img>
+                                    <Card.Img variant="top" src={iphone}></Card.Img>
                                     <Card.Body>
                                         <Card.Title>APPLE iPhone 13 (Yellow, 128 GB)</Card.Title>
                                         <Card.Subtitle className="mb-2 text-muted">₹59,900</Card.Subtitle>
@@ -67,7 +72,7 @@ const Mobiles = () => {
                                 </Card>
                                 <Card className="text-center" style={cardStylecard} >
                                     <Card.Header>Realme Phone's</Card.Header>
-                                    <Card.Img variant="top" src="./img/realme.jpg"></Card.Img>
+                                    <Card.Img variant="top" src={realme}></Card.Img>
                                     <Card.Body>
                                         <Card.Title>realme 11 Pro 5G (Astral Black, 256 GB)</Card.Title>
                                         <Card.Subtitle className="mb-2 text-muted">₹27,999</Card.Subtitle>
@@ -88,7 +93,7 @@ const Mobiles = () => {
                                 </Card>
                                 <Card className="text-center" style={cardStylecard} >
                                     <Card.Header>Samsung Phone's</Card.Header>
-                                    <Card.Img variant="top" src="./img/samsung.jpg"></Card.Img>
+                                    <Card.Img variant="top" src={samsung}></Card.Img>
                                     <Card.Body>
                                         <Card.Title>SAMSUNG Galaxy S22 5G</Card.Title>
                                         <Card.Subtitle className="mb-2 text-muted">₹39,999</Card.Subtitle>
@@ -109,7 +114,7 @@ const Mobiles = () => {
 
                                 <Card className="text-center" style={cardStylecard} >
                                     <Card.Header>Vivo Phone's</Card.Header>
-                                    <Card.Img variant="top" src="./img/vivo.jpg"></Card.Img>
+                                    <Card.Img variant="top" src={vivo}></Card.Img>
                                     <Card.Body>
                                         <Card.Title>vivo T2 Pro 5G (Dune Silver, 256 GB)  (8 GB RAM)</Card.Title>
                                         <Card.Subtitle className="mb-2 text-muted">₹24,999</Card.Subtitle>

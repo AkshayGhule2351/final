@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Login() {
     const backgroundStyle = {
-        backgroundImage: `url('/assets/background1.jpg')`,
+        backgroundColor: `lightblue`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh',

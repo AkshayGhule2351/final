@@ -1,5 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import belif from './belif.jpg';
+import johan from './johan.jpg';
+import jane from './jane.jpg';
+import julliya from './julliya.jpg';
+import janifer from './janifer.jpg';
 
 const AboutUs = () => {
     const imageStyle = {
@@ -17,7 +22,7 @@ const AboutUs = () => {
             <div className="row">
                 <div className="col-md-6" >
                     <img
-                        src="/image/belif.jpg"
+                        src={belif}
                         alt="Company Logo"
                         className="img-fluid rounded"
                         style={imageStyle1}
@@ -59,7 +64,7 @@ const AboutUs = () => {
                 </div>
                 <div className="col-md-3">
                     <img
-                        src="/image/johan.jpg"
+                        src={johan}
                         alt="Team Member 1"
                         className="img-fluid rounded-circle"
                         style={imageStyle}
@@ -71,7 +76,7 @@ const AboutUs = () => {
                 </div>
                 <div className="col-md-3">
                     <img
-                        src="/image/jane.jpg"
+                        src={jane}
                         alt="Team Member 2"
                         className="img-fluid rounded-circle"
                         style={imageStyle}
@@ -83,7 +88,7 @@ const AboutUs = () => {
                 </div>
                 <div className="col-md-3">
                     <img
-                        src="/image/julliya.jpg"
+                        src={julliya}
                         alt="Team Member 3"
                         className="img-fluid rounded-circle"
                         style={imageStyle}
@@ -97,7 +102,7 @@ const AboutUs = () => {
 
                 <div className="col-md-3">
                     <img
-                        src="/image/janifer.jpg"
+                        src={janifer}
                         alt="Team Member 3"
                         className="img-fluid rounded-circle"
                         style={imageStyle}
